@@ -33,5 +33,12 @@ class password:
         This function will delete the users password in the list
         Args:this is the account of the password the user wants to delete
         """
-        for password in class.password:
+        for password in cls.password:
             if password.account.lower()==account.lower():
+                cls.passwords.remove(password)
+
+    @classmethod
+    def password_exist(cls,acc)
+        """
+        
+        """
