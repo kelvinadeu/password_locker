@@ -9,4 +9,11 @@ class user:
       self.login = login
       self.password = password
 
-    def_exist(self,password): 
+    def_exist(self,password):
+      """
+      This will use the password to authenticate the user before showing the passwords
+      Args:
+           the user password
+      return:
+             boolean
+      """
