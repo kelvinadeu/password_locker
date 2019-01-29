@@ -58,3 +58,13 @@ class TestPassword(unittest.TestCase):
         new_password.save_password()
         Password.delete_password("instagram")
         self.assertEquall(len(password.password),1)
+
+    def test_password_exist(self):
+        """
+        This will check whether the password_exists function works
+        """
+        self.new_password.save_password()
+        self.assertTrue(Password.password_exist("instagram"))
+
+    if _name_ == "_main_":
+        unittest.main()    
