@@ -31,7 +31,8 @@ class password:
     def delete_password(cls,account):
         """
         This function will delete the users password in the list
-        Args:this is the account of the password the user wants to delete
+        Args:
+             this is the account of the password the user wants to delete
         """
         for password in cls.password:
             if password.account.lower()==account.lower():
@@ -40,5 +41,9 @@ class password:
     @classmethod
     def password_exist(cls,acc)
         """
-        
+        This function checks weather the password of the account exist
+        Args:
+             acc- this is the acount which user wants to conferm if its password exist
+        return:
+               true or false
         """
