@@ -18,7 +18,18 @@ class password:
         """
         This function will add users password to the password array
         """
-        password.passwords.append(self)
+        password.passwords.append(self):
 
-    def generate_pass(length)
+    @classmethod
+    def display_passwords(class):
+        """
+        This function returns all passwords on the list
+        """
+        returns cls.passwords
+
+    @classmethod
+    def delete_password(cls,account):
+        """
+        This function will delete the users password in the list
+        
         """
