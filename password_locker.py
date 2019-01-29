@@ -47,3 +47,8 @@ class password:
         return:
                true or false
         """
+        for password in cls.password:
+            if password.password.lower == lower():
+                return true
+
+            return false
