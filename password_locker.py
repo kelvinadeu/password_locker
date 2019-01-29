@@ -45,10 +45,10 @@ class password:
         Args:
              acc- this is the acount which user wants to conferm if its password exist
         return:
-               true or false
+               True or False
         """
         for password in cls.password:
             if password.password.lower == lower():
-                return true
+                return True
 
-            return false
+            return False
