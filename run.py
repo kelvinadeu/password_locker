@@ -1,4 +1,5 @@
-from password import Password
+#!/usr/bin/env python3.6
+from password_locker import Password
 from user import User
 import getpass #to hide the pass
 
