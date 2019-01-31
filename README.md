@@ -35,7 +35,8 @@ $ sudo apt install git-all
 # python3.6
 $ sudo apt-get install python3.6.
 # Installation
-#### To access this application on your command line, you need to clone it git clone https://github.com/kelvinadeu/password-locker.git
+#### To access this application on your command line, you need to clone it git clone
+ https://github.com/kelvinadeu/password-locker.git
 #### License
 MIT License
 
