@@ -1,5 +1,5 @@
 import unittest #importing unittest module
-from password import password #importing password class
+from password_locker import password #importing password class
 
 class TestPassword(unittest.TestCase):
     """
