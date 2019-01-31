@@ -6,7 +6,7 @@ class password:
     """
     password=[] #list to store user  passwords
 
-    def_init_(self,account,username,password)
+    def_init_(self,account,username,password):
         """
         This function will allow the user to create instances of the class with unique details in each instance
         """
@@ -18,7 +18,7 @@ class password:
         """
         This function will add users password to the password array
         """
-        password.passwords.append(self):
+        password.passwords.append(self)
 
     @classmethod
     def display_passwords(class):

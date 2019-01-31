@@ -4,6 +4,7 @@ from user import User
 import getpass #to hide the pass
 
 def new_user(login,password):
+
     """
     This will create a new user every time they login
     Args:
