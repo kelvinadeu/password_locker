@@ -1,12 +1,12 @@
 from random import random
 
-class password:
+class Password:
     """
     Here is where we will use to create the paswords
     """
-    password=[] #list to store user  passwords
+    password_list=[] #list to store user  passwords
 
-    def_init_(self,account,username,password):
+    def _init_(self,account,username,password):
         """
         This function will allow the user to create instances of the class with unique details in each instance
         """
@@ -18,14 +18,14 @@ class password:
         """
         This function will add users password to the password array
         """
-        password.passwords.append(self)
+        password.password_locker.append(self)
 
     @classmethod
-    def display_passwords(class):
+    def display_passwords(cls):
         """
         This function returns all passwords on the list
         """
-        returns cls.passwords
+        return cls.password_list
 
     @classmethod
     def delete_password(cls,account):
@@ -36,10 +36,10 @@ class password:
         """
         for password in cls.password:
             if password.account.lower()==account.lower():
-                cls.passwords.remove(password)
+                cls.password_list.remove(password)
 
     @classmethod
-    def password_exist(cls,acc)
+    def password_exist(cls,account):
         """
         This function checks weather the password of the account exist
         Args:
@@ -47,8 +47,8 @@ class password:
         return:
                True or False
         """
-        for password in cls.password:
-            if password.password.lower == lower():
+        for password in cls.password_list:
+            if password.account.lower() == account.lower():
                 return True
 
             return False

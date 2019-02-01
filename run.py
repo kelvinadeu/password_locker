@@ -1,4 +1,4 @@
-from password_locker import password
+from password_locker import Password
 from user import User
 import getpass #to hide the pass
 
@@ -12,7 +12,8 @@ def new_user(login,password):
     Return:
         the new user instance
     """
-    return User(login,password)
+    user = user(login,password)
+    return user
 
 def add_password(account,username,password):
     """

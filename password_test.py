@@ -1,5 +1,5 @@
 import unittest #importing unittest module
-from password_locker import password #importing password class
+from password_locker import Password #importing password class
 
 class TestPassword(unittest.TestCase):
     """
@@ -38,9 +38,9 @@ class TestPassword(unittest.TestCase):
         """
         new_password = password("facebook","6980",Pasword.generate_(6))
         new_password.save_password()
-        self.assertEquall(len(Password.password)1)
+        self.assertEquall(len(Password.password))
 
-    def test_display_password(self)
+    def test_display_password(self):
         """
         Here it checks weather the display_Password function will return the password in the password list
         """
@@ -67,4 +67,4 @@ class TestPassword(unittest.TestCase):
         self.assertTrue(Password.password_exist("instagram"))
 
     if _name_ == "_main_":
-        unittest.main()    
+        unittest.main()
