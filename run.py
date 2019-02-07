@@ -12,7 +12,7 @@ def new_user(login,password):
     Return:
         the new user instance
     """
-    user = user(login,password)
+    user = User(login,password)
     return user
 
 def add_password(account,username,password):
@@ -76,7 +76,7 @@ def main():
     user_name = input("User Name\n")
     user_pass = getpass.getpass('Password:\n')
 
-    new_user(user_name,user_pass)
+    #new_user(login,password)
 
     print(f"Welcome {user_name}\n")
 
